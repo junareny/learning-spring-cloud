@@ -13,6 +13,7 @@ public class ConsumerController {
     @Autowired
     RemoteHello remoteHello;
 
+    //第一种传参方式
     /*@RequestMapping("/hello")
     public String hello(@RequestParam(required = true, name = "name", defaultValue = "rxs2") String name) {
         return remoteHello.hello(name);

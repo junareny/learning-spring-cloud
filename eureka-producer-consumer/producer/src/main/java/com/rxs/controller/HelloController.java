@@ -10,6 +10,6 @@ public class HelloController {
     @RequestMapping("/hello")
     public String hello(@RequestParam(value="name", required=true, defaultValue="rxs")String name) {
         System.out.println("hello " + name +"！");
-        return "[ProducerApplication]：hello " + name +"！";
+        return "[ProducerApplication]：hello " + name +"，this is producer 2 send first message！";
     }
 }

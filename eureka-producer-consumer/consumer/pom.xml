@@ -24,6 +24,7 @@
     </parent>
 
     <dependencies>
+        <!--使用feign调用服务-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-feign</artifactId>
