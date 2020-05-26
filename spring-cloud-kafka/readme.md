@@ -1,8 +1,13 @@
 启动zk
+
 启动Kafka
+
 启动程序
+
 访问
+
 http://localhost:7888/send/zhang3
+
 sender
 
     ssl.truststore.type = JKS
